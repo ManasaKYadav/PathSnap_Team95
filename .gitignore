@@ -10,3 +10,5 @@ Rekha/results/pred_*.npy
 data/
 
 data/
+
+*.zip

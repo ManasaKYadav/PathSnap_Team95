@@ -1,0 +1,18 @@
+                 pointwise_accuracy  ...  decode_time_s_total
+method                               ...                     
+classifier_only            0.878953  ...             0.019823
+hmm_distance               0.933884  ...             1.092070
+hmm_classifier             0.941881  ...             0.813914
+
+[3 rows x 6 columns]
+    trip_id  reliable_points  fixed_by_hmm  broken_by_hmm
+0  00000000             2503            86              5
+1  00000007             1354           102              0
+2  00000009             1049            48             20
+3  00000040             2995           137             11
+4  00000052              262             4              0
+5  00000056             3931           254             55
+6  00000065              768            32             22
+7  00000076             1486            98             17
+8  00000077             3911           715            185
+9  00000091              874            57             14

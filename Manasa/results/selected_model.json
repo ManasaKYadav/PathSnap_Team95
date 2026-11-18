@@ -1,0 +1,7 @@
+{
+  "selected_model": "hist_gradient_boosting",
+  "criterion": "highest mean 5-fold GroupKFold Top-1 accuracy",
+  "cv_top1": 0.8777765811675021,
+  "cv_f1_macro": 0.9238069654355139,
+  "test_top1": 0.8888308158678723
+}

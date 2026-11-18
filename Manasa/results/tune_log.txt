@@ -1,0 +1,44 @@
+tuning lightgbm with 30 trials
+trial   0 top1=0.8727 best=0.8727
+trial   1 top1=0.8792 best=0.8792
+trial   2 top1=0.8784 best=0.8792
+trial   3 top1=0.8796 best=0.8796
+trial   4 top1=0.8725 best=0.8796
+trial   5 top1=0.8783 best=0.8796
+trial   6 top1=0.8779 best=0.8796
+trial   7 top1=0.8734 best=0.8796
+trial   8 top1=0.8783 best=0.8796
+trial   9 top1=0.8780 best=0.8796
+trial  10 top1=0.8777 best=0.8796
+trial  11 top1=0.8792 best=0.8796
+trial  12 top1=0.8780 best=0.8796
+trial  13 top1=0.8746 best=0.8796
+trial  14 top1=0.8749 best=0.8796
+trial  15 top1=0.8785 best=0.8796
+trial  16 top1=0.8791 best=0.8796
+trial  17 top1=0.8731 best=0.8796
+trial  18 top1=0.8789 best=0.8796
+trial  19 top1=0.8741 best=0.8796
+trial  20 top1=0.8791 best=0.8796
+trial  21 top1=0.8779 best=0.8796
+trial  22 top1=0.8785 best=0.8796
+trial  23 top1=0.8788 best=0.8796
+trial  24 top1=0.8786 best=0.8796
+trial  25 top1=0.8790 best=0.8796
+trial  26 top1=0.8794 best=0.8796
+trial  27 top1=0.8783 best=0.8796
+trial  28 top1=0.8776 best=0.8796
+trial  29 top1=0.8772 best=0.8796
+best params: {'n_estimators': 400, 'learning_rate': 0.14447746112718687, 'num_leaves': 26, 'min_child_samples': 32, 'subsample': 0.7962072844310213, 'colsample_bytree': 0.42787024763199866, 'reg_lambda': 0.26926469100861794, 'reg_alpha': 0.004809461967501573}
+                              0         1
+version                 untuned     tuned
+cv_f1_macro            0.924308  0.923298
+cv_top1                0.877457  0.879561
+cv_log_loss            0.107657   0.10969
+cv_train_f1_macro      0.948154  0.963094
+test_top1              0.886897  0.878953
+test_f1_macro          0.927449  0.924939
+test_log_loss          0.097891  0.100627
+test_route_continuity  0.932751  0.935575
+train_time_s           1.343334  1.656595
+infer_ms_per_1k_rows   2.759395    4.4121

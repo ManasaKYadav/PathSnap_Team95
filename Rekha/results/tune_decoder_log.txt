@@ -1,0 +1,73 @@
+held-out training trips: ['00000008', '00000010', '00000020', '00000039', '00000058', '00000068', '00000069', '00000082', '00000093', '00000096']
+{'emission': 'classifier', 'beta': 1, 'emission_weight': 0.25, 'sigma': None, 'pointwise_accuracy': np.float64(0.8661651931812632), 'route_f1': np.float64(0.946903317238329), 'route_continuity': np.float64(0.9609510648342457)}
+{'emission': 'classifier', 'beta': 1, 'emission_weight': 0.5, 'sigma': None, 'pointwise_accuracy': np.float64(0.8944463439652225), 'route_f1': np.float64(0.9467625635513756), 'route_continuity': np.float64(0.9617778792562193)}
+{'emission': 'classifier', 'beta': 1, 'emission_weight': 1.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.887021931324183), 'route_f1': np.float64(0.9464466400278777), 'route_continuity': np.float64(0.9629864132019066)}
+{'emission': 'classifier', 'beta': 1, 'emission_weight': 2.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8812582425633761), 'route_f1': np.float64(0.944666506348033), 'route_continuity': np.float64(0.9633767816247429)}
+{'emission': 'classifier', 'beta': 1, 'emission_weight': 4.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.879206760123089), 'route_f1': np.float64(0.9429774755654808), 'route_continuity': np.float64(0.964208862526411)}
+{'emission': 'classifier', 'beta': 2, 'emission_weight': 0.25, 'sigma': None, 'pointwise_accuracy': np.float64(0.8995262052459336), 'route_f1': np.float64(0.9513470273871245), 'route_continuity': np.float64(0.9619568646535704)}
+{'emission': 'classifier', 'beta': 2, 'emission_weight': 0.5, 'sigma': None, 'pointwise_accuracy': np.float64(0.9034337908464807), 'route_f1': np.float64(0.9511329240937888), 'route_continuity': np.float64(0.9633794940177021)}
+{'emission': 'classifier', 'beta': 2, 'emission_weight': 1.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8951301714453183), 'route_f1': np.float64(0.9496431595958121), 'route_continuity': np.float64(0.9638065509820064)}
+{'emission': 'classifier', 'beta': 2, 'emission_weight': 2.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8844820006838274), 'route_f1': np.float64(0.9478193731508711), 'route_continuity': np.float64(0.9649836523148719)}
+{'emission': 'classifier', 'beta': 2, 'emission_weight': 4.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8778391051628974), 'route_f1': np.float64(0.9437882672513813), 'route_continuity': np.float64(0.9638954371260198)}
+{'emission': 'classifier', 'beta': 5, 'emission_weight': 0.25, 'sigma': None, 'pointwise_accuracy': np.float64(0.9036780149465149), 'route_f1': np.float64(0.9534571874809377), 'route_continuity': np.float64(0.9631837642518821)}
+{'emission': 'classifier', 'beta': 5, 'emission_weight': 0.5, 'sigma': None, 'pointwise_accuracy': np.float64(0.8974258779856397), 'route_f1': np.float64(0.9503176012854222), 'route_continuity': np.float64(0.9647895742091173)}
+{'emission': 'classifier', 'beta': 5, 'emission_weight': 1.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8778391051628974), 'route_f1': np.float64(0.9473057179163629), 'route_continuity': np.float64(0.965004431859352)}
+{'emission': 'classifier', 'beta': 5, 'emission_weight': 2.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.875250329702535), 'route_f1': np.float64(0.9430149500729268), 'route_continuity': np.float64(0.9639817966786547)}
+{'emission': 'classifier', 'beta': 5, 'emission_weight': 4.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8745665022224393), 'route_f1': np.float64(0.9421226594433605), 'route_continuity': np.float64(0.9620479058485119)}
+{'emission': 'classifier', 'beta': 10, 'emission_weight': 0.25, 'sigma': None, 'pointwise_accuracy': np.float64(0.89371367166512), 'route_f1': np.float64(0.9494991043629468), 'route_continuity': np.float64(0.9650018587381721)}
+{'emission': 'classifier', 'beta': 10, 'emission_weight': 0.5, 'sigma': None, 'pointwise_accuracy': np.float64(0.8757876227226102), 'route_f1': np.float64(0.9479157963109401), 'route_continuity': np.float64(0.9652816112689827)}
+{'emission': 'classifier', 'beta': 10, 'emission_weight': 1.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8711962096419674), 'route_f1': np.float64(0.9428899250949548), 'route_continuity': np.float64(0.964087938943182)}
+{'emission': 'classifier', 'beta': 10, 'emission_weight': 2.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8726127094221657), 'route_f1': np.float64(0.9416131607090028), 'route_continuity': np.float64(0.9624444184277097)}
+{'emission': 'classifier', 'beta': 10, 'emission_weight': 4.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8711962096419674), 'route_f1': np.float64(0.9348468850412177), 'route_continuity': np.float64(0.9590889734095709)}
+{'emission': 'classifier', 'beta': 20, 'emission_weight': 0.25, 'sigma': None, 'pointwise_accuracy': np.float64(0.8729546231622136), 'route_f1': np.float64(0.9481239741030478), 'route_continuity': np.float64(0.9653508531645063)}
+{'emission': 'classifier', 'beta': 20, 'emission_weight': 0.5, 'sigma': None, 'pointwise_accuracy': np.float64(0.8723196405021247), 'route_f1': np.float64(0.9442784899010148), 'route_continuity': np.float64(0.9642958764572889)}
+{'emission': 'classifier', 'beta': 20, 'emission_weight': 1.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.868314365261564), 'route_f1': np.float64(0.9404994774352649), 'route_continuity': np.float64(0.9625505606922372)}
+{'emission': 'classifier', 'beta': 20, 'emission_weight': 2.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8690470375616666), 'route_f1': np.float64(0.9342494599950963), 'route_continuity': np.float64(0.9594531444622486)}
+{'emission': 'classifier', 'beta': 20, 'emission_weight': 4.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8664582621013042), 'route_f1': np.float64(0.9279980262988614), 'route_continuity': np.float64(0.9556004100405847)}
+{'emission': 'classifier', 'beta': 50, 'emission_weight': 0.25, 'sigma': None, 'pointwise_accuracy': np.float64(0.8678747618815025), 'route_f1': np.float64(0.9442274149099672), 'route_continuity': np.float64(0.9641875686946373)}
+{'emission': 'classifier', 'beta': 50, 'emission_weight': 0.5, 'sigma': None, 'pointwise_accuracy': np.float64(0.868314365261564), 'route_f1': np.float64(0.9399073043944888), 'route_continuity': np.float64(0.9621349903853915)}
+{'emission': 'classifier', 'beta': 50, 'emission_weight': 1.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.863478728080887), 'route_f1': np.float64(0.9309319406266614), 'route_continuity': np.float64(0.9585356255034194)}
+{'emission': 'classifier', 'beta': 50, 'emission_weight': 2.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8636252625409075), 'route_f1': np.float64(0.9252331547136222), 'route_continuity': np.float64(0.955034779935733)}
+{'emission': 'classifier', 'beta': 50, 'emission_weight': 4.0, 'sigma': None, 'pointwise_accuracy': np.float64(0.8626972109607776), 'route_f1': np.float64(0.9183268601328836), 'route_continuity': np.float64(0.9500833026484917)}
+{'emission': 'distance', 'beta': 1, 'emission_weight': None, 'sigma': 3, 'pointwise_accuracy': np.float64(0.8710008303619401), 'route_f1': np.float64(0.9368659276034579), 'route_continuity': np.float64(0.9588301705292361)}
+{'emission': 'distance', 'beta': 1, 'emission_weight': None, 'sigma': 5, 'pointwise_accuracy': np.float64(0.8855077419039711), 'route_f1': np.float64(0.9440297401327984), 'route_continuity': np.float64(0.9591293807313767)}
+{'emission': 'distance', 'beta': 1, 'emission_weight': None, 'sigma': 10, 'pointwise_accuracy': np.float64(0.8702193132418307), 'route_f1': np.float64(0.9421558565302011), 'route_continuity': np.float64(0.958963279586257)}
+{'emission': 'distance', 'beta': 1, 'emission_weight': None, 'sigma': 20, 'pointwise_accuracy': np.float64(0.8452107653983295), 'route_f1': np.float64(0.945193023325329), 'route_continuity': np.float64(0.9589819532731048)}
+{'emission': 'distance', 'beta': 2, 'emission_weight': None, 'sigma': 3, 'pointwise_accuracy': np.float64(0.8715869682020222), 'route_f1': np.float64(0.9367535269612587), 'route_continuity': np.float64(0.9597014743372874)}
+{'emission': 'distance', 'beta': 2, 'emission_weight': None, 'sigma': 5, 'pointwise_accuracy': np.float64(0.8867777072241488), 'route_f1': np.float64(0.9439027891855508), 'route_continuity': np.float64(0.9593326145735427)}
+{'emission': 'distance', 'beta': 2, 'emission_weight': None, 'sigma': 10, 'pointwise_accuracy': np.float64(0.8646510037610512), 'route_f1': np.float64(0.9479961410724295), 'route_continuity': np.float64(0.9588147205050586)}
+{'emission': 'distance', 'beta': 2, 'emission_weight': None, 'sigma': 20, 'pointwise_accuracy': np.float64(0.8730034679822205), 'route_f1': np.float64(0.9528589315163305), 'route_continuity': np.float64(0.9588113782432941)}
+{'emission': 'distance', 'beta': 5, 'emission_weight': None, 'sigma': 3, 'pointwise_accuracy': np.float64(0.872270795682118), 'route_f1': np.float64(0.9297797917548092), 'route_continuity': np.float64(0.9586977667135264)}
+{'emission': 'distance', 'beta': 5, 'emission_weight': None, 'sigma': 5, 'pointwise_accuracy': np.float64(0.8876080691642652), 'route_f1': np.float64(0.943157872915843), 'route_continuity': np.float64(0.960367728658173)}
+{'emission': 'distance', 'beta': 5, 'emission_weight': None, 'sigma': 10, 'pointwise_accuracy': np.float64(0.8866311727641284), 'route_f1': np.float64(0.9491629369253172), 'route_continuity': np.float64(0.9598127722213503)}
+{'emission': 'distance', 'beta': 5, 'emission_weight': None, 'sigma': 20, 'pointwise_accuracy': np.float64(0.8753480193425487), 'route_f1': np.float64(0.9496247718267764), 'route_continuity': np.float64(0.9589819844024051)}
+{'emission': 'distance', 'beta': 10, 'emission_weight': None, 'sigma': 3, 'pointwise_accuracy': np.float64(0.8669467103013725), 'route_f1': np.float64(0.9179156151364373), 'route_continuity': np.float64(0.9569712984801034)}
+{'emission': 'distance', 'beta': 10, 'emission_weight': None, 'sigma': 5, 'pointwise_accuracy': np.float64(0.8800371220632052), 'route_f1': np.float64(0.9365494833068159), 'route_continuity': np.float64(0.9605952923711399)}
+{'emission': 'distance', 'beta': 10, 'emission_weight': None, 'sigma': 10, 'pointwise_accuracy': np.float64(0.8875592243442583), 'route_f1': np.float64(0.9450870627496583), 'route_continuity': np.float64(0.960284839324012)}
+{'emission': 'distance', 'beta': 10, 'emission_weight': None, 'sigma': 20, 'pointwise_accuracy': np.float64(0.8818443804034583), 'route_f1': np.float64(0.947157416636706), 'route_continuity': np.float64(0.9598706008441414)}
+{'emission': 'distance', 'beta': 20, 'emission_weight': None, 'sigma': 3, 'pointwise_accuracy': np.float64(0.8638206418209349), 'route_f1': np.float64(0.9089595853535402), 'route_continuity': np.float64(0.9528879085707695)}
+{'emission': 'distance', 'beta': 20, 'emission_weight': None, 'sigma': 5, 'pointwise_accuracy': np.float64(0.8586919357202168), 'route_f1': np.float64(0.9227584169066072), 'route_continuity': np.float64(0.9587381776802248)}
+{'emission': 'distance', 'beta': 20, 'emission_weight': None, 'sigma': 10, 'pointwise_accuracy': np.float64(0.8718311923020564), 'route_f1': np.float64(0.9429721954685855), 'route_continuity': np.float64(0.960690714294239)}
+{'emission': 'distance', 'beta': 20, 'emission_weight': None, 'sigma': 20, 'pointwise_accuracy': np.float64(0.8933229131050652), 'route_f1': np.float64(0.9494281043562361), 'route_continuity': np.float64(0.9601139212501817)}
+{'emission': 'distance', 'beta': 50, 'emission_weight': None, 'sigma': 3, 'pointwise_accuracy': np.float64(0.8521467298393005), 'route_f1': np.float64(0.8934582006545627), 'route_continuity': np.float64(0.9431566858622904)}
+{'emission': 'distance', 'beta': 50, 'emission_weight': None, 'sigma': 5, 'pointwise_accuracy': np.float64(0.8535632296194988), 'route_f1': np.float64(0.9118010514163789), 'route_continuity': np.float64(0.9540902497530851)}
+{'emission': 'distance', 'beta': 50, 'emission_weight': None, 'sigma': 10, 'pointwise_accuracy': np.float64(0.8644556244810238), 'route_f1': np.float64(0.93642555996018), 'route_continuity': np.float64(0.9599770401116311)}
+{'emission': 'distance', 'beta': 50, 'emission_weight': None, 'sigma': 20, 'pointwise_accuracy': np.float64(0.8888780344844429), 'route_f1': np.float64(0.9462554557688966), 'route_continuity': np.float64(0.9609808336580252)}
+{
+  "best": {
+    "emission": "classifier",
+    "beta": 5.0,
+    "emission_weight": 0.25,
+    "max_penalty": 50.0,
+    "sigma": 20.0
+  },
+  "distance_baseline": {
+    "emission": "distance",
+    "beta": 20.0,
+    "sigma": 20.0,
+    "max_penalty": 50.0,
+    "emission_weight": 1.0
+  },
+  "tuned_on": "10 held-out training trips ['00000008', '00000010', '00000020', '00000039', '00000058', '00000068', '00000069', '00000082', '00000093', '00000096']; classifier refitted on the other 70",
+  "selection": "highest point-weighted pointwise accuracy, ties by route F1"
+}

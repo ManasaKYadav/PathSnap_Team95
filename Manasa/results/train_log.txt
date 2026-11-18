@@ -1,0 +1,8 @@
+train rows 211933 (80 trips), test rows 113588
+logistic_regression  cvF1 0.8554 cvTop1 0.8644 testTop1 0.8589 testF1 0.8505 ll 0.2270 (4s)
+gaussian_nb          cvF1 0.7870 cvTop1 0.8420 testTop1 0.8331 testF1 0.7864 ll 0.7220 (1s)
+knn                  cvF1 0.9125 cvTop1 0.8609 testTop1 0.8606 testF1 0.9135 ll 0.1698 (55s)
+random_forest        cvF1 0.9225 cvTop1 0.8761 testTop1 0.8734 testF1 0.9224 ll 0.1154 (93s)
+lightgbm             cvF1 0.9243 cvTop1 0.8775 testTop1 0.8869 testF1 0.9274 ll 0.0979 (9s)
+mlp                  cvF1 0.9184 cvTop1 0.8731 testTop1 0.8661 testF1 0.9178 ll 0.1104 (62s)
+selected: {'selected_model': 'lightgbm', 'criterion': 'highest mean 5-fold GroupKFold Top-1 accuracy', 'cv_top1': np.float64(0.8774567402887741), 'cv_f1_macro': np.float64(0.9243080603655347), 'test_top1': np.float64(0.8868969842680186)}

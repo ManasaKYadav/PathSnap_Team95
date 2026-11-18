@@ -1,0 +1,12 @@
+data/raw/
+__pycache__/
+*.pyc
+.venv/
+venv/
+Reet/output/*.parquet
+Rekha/results/pred_*.npy
+.DS_Store
+
+data/
+
+data/

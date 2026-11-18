@@ -1,0 +1,4 @@
+# Laptop 2 (UI only) needs just these
+streamlit==1.67.0
+folium==1.0.0
+requests==2.34.2

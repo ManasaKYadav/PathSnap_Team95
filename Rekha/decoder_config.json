@@ -1,0 +1,18 @@
+{
+  "best": {
+    "emission": "classifier",
+    "beta": 20.0,
+    "emission_weight": 0.5,
+    "max_penalty": 50.0,
+    "sigma": 20.0
+  },
+  "distance_baseline": {
+    "emission": "distance",
+    "beta": 20.0,
+    "sigma": 20.0,
+    "max_penalty": 50.0,
+    "emission_weight": 1.0
+  },
+  "tuned_on": "10 held-out training trips ['00000008', '00000010', '00000020', '00000039', '00000058', '00000068', '00000069', '00000082', '00000093', '00000096']; classifier refitted on the other 70",
+  "selection": "highest point-weighted pointwise accuracy, ties by route F1"
+}

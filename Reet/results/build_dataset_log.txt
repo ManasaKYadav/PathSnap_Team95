@@ -1,0 +1,3 @@
+train: 80 trips, 208349 points, 1084539 candidate rows, positive rate 0.169
+student_test: 10 trips, 19160 points, 113648 candidate rows, positive rate 0.168
+features: ['dist', 'rank', 'dist_minus_min', 'dist_ratio', 'n_cands', 'heading_diff', 'heading_valid', 'speed', 'dt_prev', 'arc_len', 'frac', 'win_dist_mean', 'win_dist_max', 'from_in_deg', 'to_out_deg']

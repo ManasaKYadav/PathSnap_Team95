@@ -1,0 +1,8 @@
+,student_test,train
+invalid_dropped,0,0
+duplicate_time_dropped,0,0
+speed_spikes_dropped,0,68
+track_nan,0,0
+nodes_nan,0,0
+arcs_nan,0,0
+route_nan,0,0

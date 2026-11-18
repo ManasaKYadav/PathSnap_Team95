@@ -1,0 +1,31 @@
+partition                student_test          train
+trips                       10.000000      80.000000
+points                   19160.000000  208349.000000
+points_median             1420.000000    1529.000000
+points_min                 262.000000     361.000000
+points_max                3958.000000   19313.000000
+nodes_median              6596.500000    9608.000000
+arcs_median              13145.000000   19526.500000
+route_arcs_median          250.000000     280.000000
+trips_with_gap_over_60s      1.000000      22.000000
+isolated_nodes_total         0.000000       0.000000
+weak_components_median      11.000000      20.000000
+route_connected_mean         0.999732       0.999346
+count    208337.000000
+mean          2.181237
+std         354.852204
+min           1.000000
+25%           1.000000
+50%           1.000000
+75%           1.000000
+max      153064.000000
+dtype: float64
+          points  label_dist_median  ...  unreliable_share  miss_rate_reliable
+trip_id                              ...                                      
+00000054   19313         140.087585  ...          0.894423            0.123100
+00000033    5844         122.413239  ...          0.590178            0.198747
+00000002    7243           5.774628  ...          0.119840            0.003451
+00000066    4325           6.590083  ...          0.090173            0.000000
+00000043    2322          11.011641  ...          0.071921            0.006032
+
+[5 rows x 5 columns]
